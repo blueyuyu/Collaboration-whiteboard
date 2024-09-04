@@ -4,11 +4,11 @@ export const Loading = () => {
     return (
         <div className="h-full w-full flex flex-col justify-center items-center">
             <Image
-              src="/vercel.svg"
+              src="/loading.svg"
               alt="Vercel Logo"
               className="animate-pulse duration-700"
-              width={100}
-              height={24}
+              width={120}
+              height={120}
               priority
             />
         </div>
